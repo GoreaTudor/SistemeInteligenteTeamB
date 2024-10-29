@@ -1,0 +1,96 @@
+Shape of dataset: (569, 33)
+
+Data Types:
+ id                           int64
+diagnosis                   object
+radius_mean                float64
+texture_mean               float64
+perimeter_mean             float64
+area_mean                  float64
+smoothness_mean            float64
+compactness_mean           float64
+concavity_mean             float64
+concave points_mean        float64
+symmetry_mean              float64
+fractal_dimension_mean     float64
+radius_se                  float64
+texture_se                 float64
+perimeter_se               float64
+area_se                    float64
+smoothness_se              float64
+compactness_se             float64
+concavity_se               float64
+concave points_se          float64
+symmetry_se                float64
+fractal_dimension_se       float64
+radius_worst               float64
+texture_worst              float64
+perimeter_worst            float64
+area_worst                 float64
+smoothness_worst           float64
+compactness_worst          float64
+concavity_worst            float64
+concave points_worst       float64
+symmetry_worst             float64
+fractal_dimension_worst    float64
+Unnamed: 32                float64
+dtype: object
+
+Checking for missing values:
+ id                           0
+diagnosis                    0
+radius_mean                  0
+texture_mean                 0
+perimeter_mean               0
+area_mean                    0
+smoothness_mean              0
+compactness_mean             0
+concavity_mean               0
+concave points_mean          0
+symmetry_mean                0
+fractal_dimension_mean       0
+radius_se                    0
+texture_se                   0
+perimeter_se                 0
+area_se                      0
+smoothness_se                0
+compactness_se               0
+concavity_se                 0
+concave points_se            0
+symmetry_se                  0
+fractal_dimension_se         0
+radius_worst                 0
+texture_worst                0
+perimeter_worst              0
+area_worst                   0
+smoothness_worst             0
+compactness_worst            0
+concavity_worst              0
+concave points_worst         0
+symmetry_worst               0
+fractal_dimension_worst      0
+Unnamed: 32                569
+dtype: int64
+
+Summary Statistics:
+                  id  radius_mean  ...  fractal_dimension_worst  Unnamed: 32
+count  5.690000e+02   569.000000  ...               569.000000          0.0
+mean   3.037183e+07    14.127292  ...                 0.083946          NaN
+std    1.250206e+08     3.524049  ...                 0.018061          NaN
+min    8.670000e+03     6.981000  ...                 0.055040          NaN
+25%    8.692180e+05    11.700000  ...                 0.071460          NaN
+50%    9.060240e+05    13.370000  ...                 0.080040          NaN
+75%    8.813129e+06    15.780000  ...                 0.092080          NaN
+max    9.113205e+08    28.110000  ...                 0.207500          NaN
+
+[8 rows x 32 columns]
+
+Top features correlated with diagnosis:
+ concave points_worst    0.793566
+perimeter_worst         0.782914
+concave points_mean     0.776614
+radius_worst            0.776454
+perimeter_mean          0.742636
+Name: diagnosis, dtype: float64
+
+Malignant cases ratio: 37.26%
