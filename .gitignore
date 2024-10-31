@@ -1,3 +1,4 @@
 /.venv/
 /.idea/
-/Cancer_Data.csv
+breast_cancer.csv
+cervical_cancer.csv
