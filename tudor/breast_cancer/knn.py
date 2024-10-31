@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import StandardScaler
 
 if __name__ == '__main__':
-    data = pd.read_csv('..\\Cancer_Data.csv')
+    data = pd.read_csv('../../breast_cancer.csv')
     print(data.head()) # check everything works
     data.dropna(inplace=True)
 

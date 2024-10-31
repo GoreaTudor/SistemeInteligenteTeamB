@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     # Load the data (replace 'breast_cancer_data.csv' with the correct file path)
-    df = pd.read_csv('..\\Cancer_Data.csv')
+    df = pd.read_csv('../../breast_cancer.csv')
 
     # Display the first few rows
     df.head()
